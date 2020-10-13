@@ -1,0 +1,35 @@
+.footer{
+    position: absolute;
+    background-color: #22223b;
+    width: 100%;
+}
+
+.footer-items{
+    width: 32%;
+    padding: 4%;
+}
+
+#info-h3{
+    color: #f2e9e4;
+    font-size: 20px;
+    letter-spacing: .01em;
+    line-height: 1.5em;
+    font-family: psfournier-std-grand;
+    font-weight: 100;
+}
+
+.footer-p{
+    color: #9a8c98;
+}
+
+hr{
+    position: absolute;
+    top: 30%;
+    width: 15%;
+}
+
+#footer-items-link{
+    text-decoration: none;
+    text-decoration: none;
+    color: #9a8c98;
+}

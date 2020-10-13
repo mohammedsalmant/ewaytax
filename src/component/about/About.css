@@ -1,0 +1,26 @@
+.about-container {
+    position: relative;
+    background:black;
+    height: 300px;
+    
+  }
+  
+  .about-head {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 40px;
+    font-weight: 500;
+    color: white;
+  }
+  
+  .about-img { 
+    width: 100%;
+    height: auto;
+    opacity: 0.3;
+  }
+
+  .about-body{
+    background: #fff;
+  }

@@ -1,0 +1,16 @@
+img{
+    width: 100%;
+}
+
+.carousel-inner>.item>img{
+    height:90%;
+}
+
+.carousel-inner>.item>img{
+    max-height: 564px;
+}
+
+.carousel-slide{
+    margin-left: 10%;
+    margin-right: 10%;
+}
