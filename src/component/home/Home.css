@@ -1,7 +1,34 @@
+/* .home-about{
+  margin: 5%;
+}*/
+.about-left{
+  padding: 2.5%;
+}
+.about-right{
+  padding: 2.5%;
+} 
+
+#about-p1{
+  font-size: 14px;
+  line-height: 26px;
+  font-weight: 400;
+  letter-spacing: 1px;
+}
+#about-btn{
+  border-radius: 12px;
+  background-color: #4A4E69;
+  color: white;
+  border: none;
+  padding: 9px;
+ }
+#about-btn-link{
+  color: white;
+}
 
 
 
-.card {
+
+/* .card {
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     transition: 0.3s;
     width: 40%;
@@ -18,4 +45,4 @@
   .cardimg{
       height: 20%;
       width: 20%;
-  }
+  } */

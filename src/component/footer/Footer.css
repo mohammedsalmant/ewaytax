@@ -33,3 +33,15 @@ hr{
     text-decoration: none;
     color: #9a8c98;
 }
+
+.footer-middle{
+    position: relative;
+    left: 21%;
+}
+
+@media screen and (max-width:400px){
+    .footer-middle{
+        position: relative;
+        left: 0%;
+    }
+}

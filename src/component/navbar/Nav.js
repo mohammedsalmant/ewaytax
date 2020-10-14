@@ -13,7 +13,7 @@ export default class NavBar extends Component {
     return (
         <div>
             <nav className="navbar">
-                <a href="#"><img className="logo" src="https://static1.squarespace.com/static/5c17af22b1059880765e0b8d/t/5c17b7f4758d463b971d3a46/1592197429666/?format=1500w" alt="logo"/></a>
+                <a href="/"><img className="logo" src="/images/logo.jpeg" alt="logo"/></a>
                 <div className="menu-icon" onClick={this.handleClick}>
                     <i className={this.state.clicked ? 'fas fa-times':'fas fa-bars'}></i>
                 </div>

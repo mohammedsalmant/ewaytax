@@ -5,6 +5,10 @@
 
 .logo{
     width: 130px;
+    margin-top: -42%;
+    margin-bottom: -32%;
+    margin-left: -2%;
+    height: auto;
 }
 .nav-items{
     margin-left: 13%;
