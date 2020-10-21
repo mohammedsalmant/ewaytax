@@ -39,7 +39,7 @@ hr{
     left: 21%;
 }
 
-@media screen and (max-width:400px){
+@media screen and (max-width:600px){
     .footer-middle{
         position: relative;
         left: 0%;

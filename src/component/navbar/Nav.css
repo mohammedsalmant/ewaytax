@@ -25,6 +25,86 @@ a{
     list-style-type: none;
     display: inline;
     margin: 0px 18px;
-    padding:9.27px 0px ;
+    padding:9.27px 5px ;
+    border-radius: 15px;
+}
+
+#nav-links-a{
+    color: #4A4E69;
+}
+
+#nav-links-a:hover{
+    color: #4A4E69;
+    text-decoration: none;
+}
+
+a.active,.nav-links:hover{
+    background:#F2E9E4 ;
+    transition: .5s;
+}
+
+
+.menu-icon{
+    display: none;
+    font-size: 18px;
+    color: black;
+    float: right;
+    cursor: pointer;
+}
+
+@media screen and (max-width:600px){
+    .logo{
+        width: 108px;
+        margin-top: -42%;
+        margin-bottom: -32%;
+        margin-left: -64%;
+        height: auto;    
+    }
+
+    #nav-links-a{
+
+    }
+    .nav-links-a:hover{
+        background:#f87630 ;
+        transition: .5s;
+    }
+
+    .menu-icon{
+       display: block; 
+    }
+
+    .nav-items{
+        display: none;
+    }
+
+    .nav-menu{
+        position: fixed;
+        width: 100%;
+        background: white;
+        top:80px;
+        left: 0;
+        text-align: center;
+        z-index: 1;
+    }
+    .nav-links{
+        display: block;
+    }
+    .nav-links-a{
+         
+    }
+
+    .fa-bars:before {
+        content: "\f0c9";
+        position: absolute;
+        top: 33px;
+        right: 30px;
+    }
+    .fa-times:before {
+        content: "\f00d";
+        position: absolute;
+        top: 33px;
+        right: 30px;
+    }
+
 
 }

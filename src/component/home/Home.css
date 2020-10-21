@@ -1,6 +1,3 @@
-/* .home-about{
-  margin: 5%;
-}*/
 .about-left{
   padding: 2.5%;
 }
@@ -26,23 +23,26 @@
 }
 
 
-
-
-/* .card {
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-    transition: 0.3s;
-    width: 40%;
-  }
-  
-  .card:hover {
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
-  }
-  
-  .container {
-    padding: 2px 16px;
+@media screen and (max-width:600px){
+  #about-img { 
+    width: 50%;
   }
 
-  .cardimg{
-      height: 20%;
-      width: 20%;
-  } */
+  #about-h2{
+    font-size: 22px;
+    font-weight: 700;
+  }
+
+  #about-p1 {
+    font-size: 10px;
+    line-height: 26px;
+    font-weight: 400;
+    letter-spacing: 1px;
+  }
+
+  #about-btn {
+    padding: 5px;
+    font-size: 10px;
+  } 
+}
+

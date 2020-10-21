@@ -16,7 +16,7 @@ export default class Home extends Component {
                         <img id="about-img" src="https://cdn.pixabay.com/photo/2018/03/03/20/02/laptop-3196481_1280.jpg" alt="Aboutus"/>
                     </Grid>
                     <Grid item className="about-right" xs={12} sm={6}>
-                        <h2>ABOUT US</h2>
+                        <h2 id="about-h2">ABOUT US</h2>
                         <p id="about-p1">Ewaytax offers high value-added business consulting solutions to enterprises of all sizes. Ewaytax
                             Business Consulting Services utilises the professional challenges to work for multiple enterprises
                             across the globe in order to provide value additions to their business in multiple ways. While working
