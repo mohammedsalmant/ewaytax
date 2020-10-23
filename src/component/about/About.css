@@ -19,8 +19,14 @@
     width: 100%;
     height: auto;
     opacity: 0.3;
+    position: absolute;
+    clip: rect(0px,1161px,298px,0px);
   }
 
   .about-body{
     background: #fff;
+    padding: 5%;
+    line-height: 26px;
+    font-weight: 400;
+    letter-spacing: 1px;
   }

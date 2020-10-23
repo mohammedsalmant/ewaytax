@@ -5,6 +5,13 @@ import { Grid } from '@material-ui/core';
 
 export default function Services() {
     return (
+
+        <div>
+             <div className="about-container">
+                <img className="about-img" src="https://images.unsplash.com/photo-1517502884422-41eaead166d4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=925&q=80" alt=""/>
+                <div className="about-head">SERVICES</div>
+            </div>
+
         <div className="container2">
             <div className="gst">
                 <h3 className="services-h3">GST</h3>
@@ -123,9 +130,69 @@ export default function Services() {
                         </ul>
             </div>
 
+            {/* ================================================================================ */}
 
-            
+
+             <div className="loan-projects">
+                <h3 className="services-h3">LOAN PROJECTS</h3>
+                <ul className="srvices-lp-list-ul">
+                    <li>MUDRA LOAN</li>
+                    <li>PMEGP LOAN</li>
+                    <li>NORKA</li>
+                    <li>OTHER SCHEME</li>
+                </ul>
+                <h5 className="services-h5">DOCUMENTS</h5>
+                
+                <h6 className="services-lp-h6">MUDRA LOAN</h6>
+                <Grid container>
+                    <Grid item xs={12} sm={3}>
+                        <ul className="srvices-lp-list-ul">
+                            <li>Aadhar Card</li>
+                            <li>PAN Card</li>
+                            <li>Photo - 2</li>
+                            <li>Tax Recipt</li>
+                            <li>Rent Agrement</li>
+                            <li>Business Detials</li>
+                            <li>Nature of Business</li>
+                            <li>Office Adress</li>
+                        </ul>
+                    </Grid>
+                    <Grid item xs={12} sm={3}>
+                        <ul className="srvices-lp-list-ul">   
+                            <li>Qualification Certificate</li>
+                            <li>Religion & Cast Certificate</li>
+                            <li>Panchayath/ Thaluk/ Block</li>
+                            <li>Phone Number & Email id</li>
+                            <li>Existing or Not (Year)</li>
+                            <li>Prefferd Bank Detials</li>
+                            <li>Expected Loan Amouns</li>
+                            <li>Machineries & Fixed Assets</li>
+                        </ul>
+                    </Grid>  
+                    <Grid item xs={12} sm={3}>
+                         <h6 className="services-lp-h6">if PMEGP</h6>
+                         <ul className="srvices-lp-list-ul">
+                            <li>Owner Full Address</li>
+                            <li>Ration Card Copy</li>
+                            <li>Tax Recipt</li>
+                        </ul>     
+                    </Grid>    
+                    <Grid item xs={12} sm={3}>
+                        <h6 className="services-lp-h6">FOR SUBSIDY</h6>
+                        <ul className="srvices-lp-list-ul">
+                            <li>Community Certificate</li>
+                            <li>Experience Certificate In Business</li>
+                            <li>Computer Knowledge Certificate</li>
+                        </ul>
+                        <h6 className="services-lp-h6">if NORKA</h6>
+                        <ul className="srvices-lp-list-ul">
+                            <li>Passport (Additional)</li>
+                        </ul>
+                    </Grid>             
+                </Grid>            
+            </div>
             {/* <Card/> */}
+        </div>
         </div>
     )
 }

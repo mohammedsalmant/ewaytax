@@ -7,6 +7,8 @@ import Home from './component/home/Home'
 import Services from './component/services/Services'
 import Login from './component/Account/Login'
 import Footer from './component/footer/Footer'
+import Contact from './component/contact/Contact'
+import Dashboard from './component/Account/Dashboard'
 
 function App() {
   return (
@@ -16,6 +18,8 @@ function App() {
       <Route path="/services" component={Services} />
       <Route path="/login" component={Login} />
       <Route path="/about" component={AboutUs} />
+      <Route path="/contact" component={Contact} />
+      <Route path="/dashboard" component={Dashboard} />
       <Footer />
     </Router>
   );
