@@ -1,10 +1,22 @@
-import React, { useState } from "react";
+import Axios from "axios";
+import React, { useState, useEffect } from "react";
 import { Button, FormGroup, FormControl, FormLabel } from "react-bootstrap";
 import "./Login.css";
+import {useHistory} from 'react-router-dom'
+import cookie from 'js-cookie'
 
 export default function Login() {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
+  const history = useHistory()
+
+  useEffect(()=>{
+    const token = cookie.get('token')
+    console.log(token);
+    if (token!==undefined){
+      history.push("/dashboard")
+    }
+  },[])
 
   function validateForm() {
     return email.length > 0 && password.length > 0;
@@ -12,6 +24,17 @@ export default function Login() {
 
   function handleSubmit(event) {
     event.preventDefault();
+    console.log(email);
+    Axios.post('http://multivendorappbackend.herokuapp.com/user/login',{email:email,password:password})
+    .then(response => {
+      console.log(response);
+      console.log("test");
+      cookie.set('token', response.data.token)
+      history.push("/dashboard")
+    })
+  .catch(err=> {
+      console.log(err)
+    })    
   }
 
   return (
