@@ -7,7 +7,7 @@ export default function Cards() {
     return (
         <div className="container">
             <h2 className="serviceHead">OUR BEST SERVICES</h2>
-            <Grid container className="cards" style={{display: 'flex'}}>
+            <Grid container className="cards" style={{display: 'flex',justifyContent: "center"}}>
                 {CardItems.map((item)=>(
                 <Grid item className="cardItem" style={{margin:'39px'}} xs={12} md={3} sm={4}>
                     <img className="card-img-top" src={item.image} alt="Card image cap" />

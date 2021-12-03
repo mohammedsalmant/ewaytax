@@ -1,138 +1,125 @@
-
-.container{
-    background-color:#f7f7f7;
-    width: 100%;
+.container {
+  background-color: #f7f7f7;
+  width: 100%;
 }
-.cardItem{
-    background-color: white;
-    padding: 5% 3% 0% 3%;
-    transform: scale(1);
-    transition: 1s ease-in-out;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  
+.cardItem {
+  background-color: white;
+  padding: 5% 3% 0% 3%;
+  transform: scale(1);
+  transition: 1s ease-in-out;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-.card-img-top{
-    height: 36%;
-    width: 40%;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    color:white;
+.card-img-top {
+  width: 40%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  color: white;
 }
-.serviceHead{
-    margin-left: 7%;
-    font-size: 33px;
-    color: #092c3f;
-    font-weight: 780;
+.serviceHead {
+  margin-left: 7%;
+  font-size: 33px;
+  color: #092c3f;
+  font-weight: 780;
 }
-.cardItem:hover{
-    transform: scale(1.1);
-}
-
-.card-title{
-    font-size: 114%;
-    font-weight: 100;
-    margin-bottom: 21px;
-    display: block;
-    text-align: center;
-    font-family: "psfournier-std-grand";
+.cardItem:hover {
+  transform: scale(1.1);
 }
 
-
-.cardItem:hover{
-    background-color: #9A8C98;
-    color: white;
-    box-shadow: 0 4px 8px 0 rgba(7, 199, 247, 0.2), 0 6px 20px 0 rgba(3, 167, 243, 0.19);
-  
+.card-title {
+  font-size: 114%;
+  font-weight: 100;
+  margin-bottom: 21px;
+  display: block;
+  text-align: center;
+  font-family: "psfournier-std-grand";
 }
 
-@media screen and (max-width:600px){
-    .serviceHead{
-        font-size: 22px;
-    }
+/* .cardItem:hover {
+  box-shadow: 0 4px 8px 0 rgba(7, 199, 247, 0.2),
+    0 6px 20px 0 rgba(3, 167, 243, 0.19);
+} */
+
+@media screen and (max-width: 600px) {
+  .serviceHead {
+    font-size: 22px;
+  }
 }
-
-
-
-
 
 /* ==================================== */
-.container2{
-    margin: 2%;
-    padding: 2%;
-    line-height: 26px;
-    font-weight: 400;
-    letter-spacing: 1px;
+.container2 {
+  margin: 2%;
+  padding: 2%;
+  line-height: 26px;
+  font-weight: 400;
+  letter-spacing: 1px;
 }
 
-.gst{
-    text-align: center;
-    background-color: #f7f7f7;
-    padding: 2%;
+.gst {
+  text-align: center;
+  background-color: #f7f7f7;
+  padding: 2%;
 }
 
-.services-h3{
-    font-weight: 500;
+.services-h3 {
+  font-weight: 500;
 }
 
-.services-p{
-    padding: 2%;
+.services-p {
+  padding: 2%;
 }
 
-.services-gst-list-ul1{
-    list-style: none ;
-    text-align: left;
-    padding: 0;
-    margin: 0;    
+.services-gst-list-ul1 {
+  list-style: none;
+  text-align: left;
+  padding: 0;
+  margin: 0;
 }
-.services-gst-list-ul2{
-    list-style: none ;
-    text-align: left;
-    padding: 0;
-    margin: 0;
+.services-gst-list-ul2 {
+  list-style: none;
+  text-align: left;
+  padding: 0;
+  margin: 0;
 }
-.services-gst-h6{
-    text-align: left;
-    font-weight: 700;
+.services-gst-h6 {
+  text-align: left;
+  font-weight: 700;
 }
 
 /* ========================= */
 
-.company-registration{
-    text-align: center;
+.company-registration {
+  text-align: center;
 }
-.services-cr-h6{
-    font-weight: 700;
+.services-cr-h6 {
+  font-weight: 700;
 }
-.services-cr-list-ul{
-    list-style: none;
-    padding: 0;
-    margin: 0;
+.services-cr-list-ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
 }
 
 /* ======================================== */
 
-.trademark-registration{
-    background-color: #f7f7f7;
-    text-align: center;
-    padding: 2%;
+.trademark-registration {
+  background-color: #f7f7f7;
+  text-align: center;
+  padding: 2%;
 }
-
-
-
 
 /* ==================================== */
-.loan-projects{
-    text-align: center;
+.loan-projects {
+  text-align: center;
 }
 
-.services-lp-h6{
-    font-weight: 700;
+.services-lp-h6 {
+  font-weight: 700;
 }
 
-.srvices-lp-list-ul{
-    list-style: none;
-    padding: 0;
-    margin: 0;
+.srvices-lp-list-ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
 }
